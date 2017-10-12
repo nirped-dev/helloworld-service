@@ -7,7 +7,7 @@ build: proto
 	@go build 
 
 install: proto
-	@Echo "Installing"
+	@echo "Installing"
 	@go install
 
 proto:
